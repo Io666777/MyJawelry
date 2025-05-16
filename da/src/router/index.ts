@@ -11,6 +11,7 @@ import l4 from '../views/l4.vue';
 import l5 from '../views/l5.vue';
 import l6 from '../views/l6.vue';
 import l7 from '../views/l7.vue';
+import figma from '../views/figma.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -19,12 +20,13 @@ const routes = [
   { path: '/zd3', component: Zd3 },
   { path: '/zd4', component: Zd4 },
   { path: '/l1', component: l1 },
-  { path: '/l2', component: l1 },
-  { path: '/l1', component: l1 },
-  { path: '/l1', component: l1 },
-  { path: '/l1', component: l1 },
-  { path: '/l1', component: l1 },
-  { path: '/l1', component: l1 },
+  { path: '/l2', component: l2 },
+  { path: '/l3', component: l3 },
+  { path: '/l4', component: l4 },
+  { path: '/l5', component: l5 },
+  { path: '/l6', component: l6 },
+  { path: '/l7', component: l7 },
+  { path: '/figma', component: figma },
 ];
 
 const router = createRouter({

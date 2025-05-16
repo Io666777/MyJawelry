@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col border border-gray-300">
-  <!-- Header Row -->
+
   <div class="flex bg-gray-100 font-bold">
     <div class="flex-1 p-3 border-r border-gray-300">ID</div>
     <div class="flex-1 p-3 border-r border-gray-300">Name</div>
@@ -8,7 +8,7 @@
     <div class="flex-1 p-3">Status</div>
   </div>
   
-  <!-- Data Rows -->
+  
   <div class="flex border-t border-gray-300">
     <div class="flex-1 p-3 border-r border-gray-300">1</div>
     <div class="flex-1 p-3 border-r border-gray-300">John Doe</div>
