@@ -8,12 +8,10 @@ const increaseCount = () => {
   count.value += 1;
 };
 
-// Отслеживание изменений счетчика
 watch(count, (newValue) => {
   limitReached.value = newValue >= 10;
 });
 
-// Функция сброса
 const resetCount = () => {
   count.value = 0;
   limitReached.value = false;
@@ -26,7 +24,7 @@ const resetCount = () => {
       <div class="text-2xl font-bold mb-4">Счетчик</div>
       <p class="text-lg font-semibold mb-4"><span class="text-blue-500">{{ count }}</span></p>
 
-      <!-- Кнопка увеличения -->
+
       <button 
         @click="increaseCount"
         class="px-6 py-3 bg-blue-500 text-white rounded-md shadow-sm hover:bg-blue-600 transition-all duration-200 mb-4"
@@ -34,10 +32,10 @@ const resetCount = () => {
         Кликкликлик
       </button>
 
-      <!-- Уведомление о достижении лимита -->
+
       <p v-if="limitReached" class="text-red-500 font-medium mb-4">Лимит достигнут!</p>
 
-      <!-- Кнопка сброса -->
+
       <button 
         @click="resetCount"
         class="px-6 py-3 bg-gray-500 text-white rounded-md shadow-sm hover:bg-gray-600 transition-all duration-200"

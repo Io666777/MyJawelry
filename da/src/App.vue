@@ -1,4 +1,4 @@
-<script>
+    <script>
     export default {
       name: 'AppHeader'
     }
@@ -13,5 +13,12 @@
       <router-link to="/zd4">зд4 чек лист</router-link>
     </nav>
   </header>
+  <div>/////////////////////</div>
+      <nav>
+      <router-link to="/l1">Зд2 реактивные поля ввода</router-link> |
+      <router-link to="/zd2">зд1 3 Кликер +  watch</router-link>  |
+      <router-link to="/zd3">зд3 хуки</router-link>  |
+      <router-link to="/zd4">зд4 чек лист</router-link>
+    </nav>
   <router-view/>
 </template>
