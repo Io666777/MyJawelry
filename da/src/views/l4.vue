@@ -1,5 +1,5 @@
 <template>
-    <div class="space-y-4">
+  <div class="space-y-4">
   <div class="text-xs text-gray-500">Extra small text</div>
   <div class="text-lg font-bold">Large bold text</div>
   <div class="text-xl italic">Extra large italic</div>

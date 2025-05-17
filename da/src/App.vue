@@ -22,6 +22,7 @@
       <router-link to="/l5">фон</router-link> |
       <router-link to="/l6">границы</router-link> |
       <router-link to="/l7">отступы</router-link> |
+      <router-link to="/figma">фигма</router-link> |
 
     </nav>
   <router-view/>
