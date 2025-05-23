@@ -1,0 +1,5 @@
+[
+  {"id": 1, "text": "я не уверен", "completed": false},
+  {"id": 2, "text": "работает ли", "completed": true},
+  {"id": 3, "text": "эта штука", "completed": false}
+]

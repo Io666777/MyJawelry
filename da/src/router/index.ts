@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
 import ONE from '@/views/ONE.vue';
 import TWO from '@/views/TWO.vue';
+import THREE from '@/views/THREE.vue';
 
 const routes = [
   {
@@ -31,6 +32,14 @@ const routes = [
       { path: 'l6', component: () => import('@/views/l6.vue') },
       { path: 'l7', component: () => import('@/views/l7.vue') },
       { path: 'figma', component: () => import('@/views/figma.vue') }
+    ]
+  },
+    {
+    path: '/THREE',
+    component: THREE,
+    children: [
+      { path: 'les1', component: () => import('@/views/les1.vue') },
+      { path: 'les2', component: () => import('@/views/les2.vue') },
     ]
   }
 ];
